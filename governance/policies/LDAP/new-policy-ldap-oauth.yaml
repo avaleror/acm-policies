@@ -46,7 +46,7 @@ spec:
                         CN=svc-openshift,OU=Tech_Users,OU=ADMIN,OU=CENTRAL,DC=p-dom,DC=allianz-suisse,DC=ch
                       bindPassword:
                         name: ldap-bind-password-999sg
-                      insecure: true                                                           <--
+                      insecure: true
                       url: >-
                         ldap://virt-ldap.p-dom.allianz-suisse.ch:389/dc=p-dom,dc=allianz-suisse,dc=ch?sAMAccountName?sub
                     mappingMethod: claim
